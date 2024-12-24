@@ -48,20 +48,20 @@ Installation and Setup
     *   Follow the [ArgoCD getting started guide](https://www.fosstechnix.com/install-argocd-on-minikube-with-ubuntu-24-04/).
         
     *   Ensure ArgoCD is deployed and running in your Kubernetes cluster.
-
-        bash```    
-            kubectl get all -n argocd
-            ```
+      
+          ```    
+          kubectl get all -n argocd
+          ```
         
 4.  **Clone the GitHub repo**:
 
-    bash```    
+        ```    
         git clone https://github.com/shamim-iq/Tetris-Game-deploy-with-ArgoCD.git
         ```
     
 5.  **Access ArgoCD on your browser**:
 
-    bash```    
+        ```    
         kubectl port-forward svc/argocd-server -n argocd --address 0.0.0.0 8080:443 &
         ```
 
@@ -74,15 +74,15 @@ Accessing the Application
 
 *   Once deployed, the Tetris application will be available at the external IP of the LoadBalancer.
 
-    bash```    
+        ```    
         minikube tunnel &
         ```
 
-    bash```    
+        ```    
         kubectl get svc tetris-service
         ```
 
-    bash```    
+        ```    
         kubectl port-forward svc/tetris-service --address 0.0.0.0 8081:80
         ```
 
