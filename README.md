@@ -57,11 +57,7 @@ Installation and Setup
           kubectl get all -n argocd
           ```
         
-4.  **Clone the GitHub repo**:
-
-       ```
-        git clone https://github.com/shamim-iq/Tetris-Game-deploy-with-ArgoCD.git
-       ```
+4.  **Fork this GitHub repo.**
     
 5.  **Access ArgoCD on your browser**:
 
