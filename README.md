@@ -45,7 +45,7 @@ Installation and Setup
     
 3.  **Install ArgoCD**:
     
-    *   Follow the [ArgoCD getting started guide](https://www.fosstechnix.com/install-argocd-on-minikube-with-ubuntu-24-04/).
+    *   Follow the [ArgoCD installation guide](https://www.fosstechnix.com/install-argocd-on-minikube-with-ubuntu-24-04/).
         
     *   Ensure ArgoCD is deployed and running in your Kubernetes cluster.
       
