@@ -1,6 +1,10 @@
 Tetris Game Deployment with ArgoCD and Minikube
 ======================================================
 
+<div align="center">
+  <img src="./Tetris game.JPG" alt="Tetris" width="100%" height="100%">
+</div>
+
 Features
 --------
 
