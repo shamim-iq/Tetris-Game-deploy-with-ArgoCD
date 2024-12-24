@@ -88,6 +88,6 @@ Accessing the Application
 
 *   Access the application on "https://<server-ip>:8081/" using your browser.
 
-Note: Make sure to open the necessary ports in the security groups of the server.
+**Note**: Make sure to open the necessary ports in the security groups of the server.
     
     
